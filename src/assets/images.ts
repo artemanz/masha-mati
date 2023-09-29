@@ -27,6 +27,8 @@ import desktop__studioBg from "./images/mainPage/desktop/studio-bg.webp";
 import desktop__songsBg from "./images/mainPage/desktop/songs-bg.webp";
 
 // create-own-song-page
+import cosp__desktop_hero from "./images/createOwnSongPage/desktop__cos-hero.webp";
+import cosp__mobile_hero from "./images/createOwnSongPage/mobile__cos-hero.webp";
 import cosp__desktop__masha from "./images/createOwnSongPage/desktop__masha.webp";
 import cosp__desktop__decor from "./images/createOwnSongPage/desktop__decor.webp";
 import singer1 from "./images/createOwnSongPage/singer-1.webp";
@@ -42,6 +44,8 @@ import spotify from "./images/createOwnSongPage/spotify.webp";
 import yt from "./images/createOwnSongPage/yt.webp";
 
 export {
+  cosp__desktop_hero,
+  cosp__mobile_hero,
   itunes,
   appleMusic,
   spotify,
@@ -73,6 +77,21 @@ export {
 import desktop__celebrity_hero from "./images/celebrity/hero.webp";
 import mobile__celebrity_hero from "./images/celebrity/mobile-hero.webp";
 import desktop__videoBg from "./images/celebrity/desktop-videoBg.webp";
+import celebrity1 from "./images/celebrity/photo-1.webp";
+import celebrity2 from "./images/celebrity/photo-2.webp";
+import celebrity3 from "./images/celebrity/photo-3.webp";
+import celebrity4 from "./images/celebrity/photo-4.webp";
+import celebrity5 from "./images/celebrity/photo-5.webp";
+import celebrity6 from "./images/celebrity/photo-6.webp";
+
+export {
+  celebrity1,
+  celebrity2,
+  celebrity3,
+  celebrity4,
+  celebrity5,
+  celebrity6,
+};
 
 // media-gallery
 import desktop__mediaGallery_hero from "./images/mediaGallery/desktop-hero.webp";

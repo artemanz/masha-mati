@@ -10,18 +10,9 @@ interface Props {}
 
 const Header = (props: Props) => {
   const [mobileMenu, setMobileMenu] = useState(false);
-  const [headerBg, setHeaderBg] = useState(false);
-  const location = useLocation();
-  useEffect(() => {
-    if (location.pathname === "/create-own-song") {
-      setHeaderBg(true);
-    } else setHeaderBg(false);
-  }, [location]);
 
   return (
-    <header
-      className={`absolute z-30 w-full lg:pt-8 ${headerBg ? "bg-black pb-6 lg:pb-4" : ""}`}
-    >
+    <header className="absolute z-30 w-full lg:pt-8">
       <div className="container flex items-center justify-between mx-auto lg:max-w-5xl">
         <a href="/">
           <img className="w-24" src={logo} alt="Logo" />

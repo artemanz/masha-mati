@@ -39,7 +39,7 @@ const MusicStudioPage = (props: Props) => {
       <section className="section">
         <div className="mx-auto max-w-hd">
           {/* 1 */}
-          <div className="flex items-center justify-center gap-8 py-20">
+          <div className="flex flex-col items-center justify-center py-20 gap-x-8 gap-y-12 lg:flex-row">
             <div className="lg:px-8">
               <h2 className="text-2xl text-center font-horizon lg:text-4xl lg:text-left">
                 CONCERT
@@ -73,7 +73,7 @@ const MusicStudioPage = (props: Props) => {
                 submit a request
               </a>
             </div>
-            <div className="flex-auto hidden max-w-5xl lg:block">
+            <div className="flex-auto w-full max-w-5xl lg:w-auto">
               <iframe
                 className="w-full h-full aspect-video"
                 src="https://www.youtube.com/embed/T41zjVG4lxc?si=Pz2W1JxoCq-aqate"
@@ -84,8 +84,8 @@ const MusicStudioPage = (props: Props) => {
             </div>
           </div>
           {/* 2 */}
-          <div className="flex justify-center gap-8 py-20 lg:mt-20 lg:py-0 lg:bg-gradient-to-r lg:from-[#251537] lg:to-[#38254d] lg:gap-0">
-            <div className="order-1 lg:px-12 lg:basis-1/2 lg:py-12">
+          <div className="flex justify-center gap-x-8 gap-y-12 py-20 lg:mt-20 lg:py-0 lg:bg-gradient-to-r lg:from-[#251537] lg:to-[#38254d] lg:gap-0 flex-col lg:flex-row">
+            <div className="lg:order-1 lg:px-12 lg:basis-1/2 lg:py-12">
               <h2 className="text-2xl text-center font-horizon lg:text-4xl lg:text-left">
                 VOCAL CLASS
               </h2>
@@ -120,12 +120,12 @@ const MusicStudioPage = (props: Props) => {
                 submit a request
               </a>
             </div>
-            <div className="flex-auto hidden max-w-5xl lg:block basis-1/2">
+            <div className="flex-auto max-w-5xl basis-1/2">
               <img className="w-full h-full" src={desktop__section2} alt="bg" />
             </div>
           </div>
           {/* 3 */}
-          <div className="flex justify-center gap-8 py-20 lg:py-0 lg:bg-gradient-to-r lg:to-[#251537] lg:from-[#38254d] lg:gap-0">
+          <div className="flex justify-center gap-x-8 gap-y-12 py-20 lg:py-0 lg:bg-gradient-to-r lg:to-[#251537] lg:from-[#38254d] lg:gap-0 flex-col lg:flex-row">
             <div className="lg:px-12 lg:basis-1/2 lg:py-12">
               <h2 className="text-2xl text-center font-horizon lg:text-4xl lg:text-right">
                 PIANO CLASS
@@ -161,7 +161,7 @@ const MusicStudioPage = (props: Props) => {
                 submit a request
               </a>
             </div>
-            <div className="flex-auto hidden max-w-5xl lg:block basis-1/2">
+            <div className="flex-auto max-w-5xl basis-1/2">
               <img className="w-full h-full" src={desktop__section3} alt="bg" />
             </div>
           </div>

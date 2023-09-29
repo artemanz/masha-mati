@@ -45,7 +45,7 @@ const Hero = (props: Props) => {
 
         <img className="mt-4 lg:hidden" src={mobile__hero} alt="Masha Mati" />
         <img
-          className="hidden lg:block w-[1700px] absolute -z-10 top-1/2 -translate-y-1/2 -right-[500px]"
+          className="hidden lg:block w-[800px] xl:w-[1200px] absolute -z-10 top-1/2 -translate-y-1/2 -right-[250px]"
           src={desktop__hero}
           alt="Masha Mati"
         />

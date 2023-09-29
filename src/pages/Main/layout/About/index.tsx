@@ -18,9 +18,9 @@ const About = (props: Props) => {
         src={mobile__aboutGradient}
         alt="bg"
       />
-      <div className="container flex-col items-center justify-center h-full max-w-sm gap-10 py-10 mx-auto lg:flex lg:max-w-4xl">
-        <img className="hidden lg:block" src={logo} alt="Logo" />
-        <h2 className="hidden text-4xl font-horizon lg:block">Masha Mati</h2>
+      <div className="container flex flex-col items-center justify-center h-full max-w-sm gap-6 py-10 mx-auto lg:gap-10 lg:max-w-4xl">
+        <img className="max-w-[50%]" src={logo} alt="Logo" />
+        <h2 className="text-4xl font-horizon">Masha Mati</h2>
         <p className="mx-auto text-center w-72 lg:w-[600px]">
           Her original tracks, "Dance" and "Bailar," co-written with American
           and Cuban artists, are playing on the airwaves of Kan Reka Radio,

@@ -9,7 +9,9 @@ const Footer = (props: Props) => {
     <footer className="bg-accent-dark">
       <div className="container flex flex-col items-center mx-auto">
         <div className="flex flex-col items-center w-full py-12 border-b-2 border-b-accent">
-          <img className="w-[100px]" src={logo} alt="Logo" />
+          <Link to={"/"}>
+            <img className="w-[100px]" src={logo} alt="Logo" />
+          </Link>
 
           <nav className="text-center">
             <ul className="flex flex-col gap-8 mt-8 lg:flex-row">

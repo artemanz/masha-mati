@@ -1,0 +1,41 @@
+@layer base {
+  :root {
+    --rem: 16px;
+    font-size: var(--rem);
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-primary;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    color: #fff;
+    overflow-x: hidden;
+  }
+
+  /* Firefox */
+  /* 1 - thumb color, 2 - track color */
+  * {
+    scrollbar-color: #f6bda3 #d4d4d4;
+  }
+
+  /* Chrome, Safari */
+  /* All 3 rules are important */
+  *::-webkit-scrollbar {
+    @apply w-2;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    @apply bg-accent;
+  }
+
+  *::-webkit-scrollbar-thumb:hover {
+    @apply bg-accent;
+  }
+
+  *::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #d4d4d4;
+  }
+}

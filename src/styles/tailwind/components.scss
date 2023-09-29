@@ -1,0 +1,25 @@
+@layer components {
+  .section {
+    @apply relative;
+  }
+
+  .container {
+    @apply relative px-3;
+  }
+
+  .Button--fullfiled {
+    @apply flex items-center px-6 py-3 text-black rounded-full bg-gradient-1 max-w-fit text-xl font-bold uppercase;
+  }
+
+  .Button--outlined {
+    @apply flex items-center px-6 py-3 font-bold border rounded-full border-accent max-w-fit text-xl uppercase;
+  }
+
+  .SectionHeading {
+    @apply text-center text-2xl font-bold lg:text-[64px] lg:leading-none lg:text-left xl:text-[78px] uppercase;
+
+    font-family: "RG-SpaciousBook", sans-serif;
+
+    line-height: normal;
+  }
+}
